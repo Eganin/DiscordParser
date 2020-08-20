@@ -86,7 +86,7 @@ public class Parser {
     }
 
     public HashMap<String, String> parsingChannels(Elements chanells) throws IOException {
-        LinkedList<String> ArrayTags = new LinkedList<String>(); // односвязный список для тэгов
+        LinkedList<String> ArrayTags = new LinkedList<String>(); // связанный список для тэгов
 
         HashMap<String , String> discordChannel = new HashMap<String , String>(); // типа dict
 
